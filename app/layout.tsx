@@ -10,8 +10,8 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Shivam's Portfolio",
-  description: "Modern and Minimal Portfolio",
+  title: "鈴木 隼人 ポトポリア",
+  description: "ポトポリア",
 };
 
 export default function RootLayout({

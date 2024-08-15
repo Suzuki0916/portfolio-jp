@@ -1,14 +1,14 @@
 export const navItems = [
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
+  { name: "について", link: "#about" },
+  { name: "プロジェクト", link: "#projects" },
   // { name: "Testimonials", link: "#testimonials" },
-  { name: "Contact", link: "#contact" },
+  { name: "接触", link: "#contact" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "私はクライアントとのコラボレーションを優先し、オープンなコミュニケーションを促進します",
     
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
@@ -19,7 +19,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "Flexible with time zone communications",
+    title: "タイムゾーン通信に柔軟に対応",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -29,8 +29,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
+    title: "技術スタック",
+    description: "私は常に改善しようと努めています",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -39,7 +39,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "開発に情熱を持つ技術愛好家。",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -50,8 +50,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently diving into the realm of AI and Machine Learning",
-    description: "The Inside Scoop",
+    title: "現在、AIと機械学習の分野に取り組んでいます",
+    description: "内部情報",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -60,7 +60,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "一緒にプロジェクトを始めてみませんか。",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -73,32 +73,32 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    title: "探索できる3D太陽系惑星",
+    des: "Three.js を使用した魅力的な 3D 惑星シミュレーションで太陽系の驚異を探索しましょう.",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "/ui.earth.com",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "Yoom - ビデオ会議アプリ",
+    des: "Yoom でビデオ会議を簡素化しましょう。同僚や友人とシームレスに接続できます。",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "/ui.yoom.com",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "AI画像SaaS - Canvaアプリケーション",
+    des: "最新のテクノロジー スタックを使用した AI 機能と支払いおよびクレジット システムを備えた、本物の Software-as-a-Service アプリです。",
     img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "/ui.aiimg.com",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    title: "アニメーション化された Apple Iphone 3D ウェブサイト",
+    des: "GSAP アニメーションと Three.js 3D 効果を組み合わせて、Apple iPhone 15 Pro の Web サイトを再作成しました。",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "/ui.apple.com",
@@ -108,46 +108,46 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Shivam was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Dwayne Johnson",
-    title: "Director",
+      "Shivam とのコラボレーションは、本当に楽しかったです。彼のプロ意識、迅速さ、そして優れた成果を出すための献身は、私たちのプロジェクト全体を通して明らかでした。Adrian の開発のあらゆる側面に対する熱意は、本当に際立っています。Web サイトとブランドの向上を目指すなら、Adrian は理想的なパートナーです。",
+    name: "ドウェイン・ジョンソン",
+    title: "監督",
   },
   {
     quote:
-      "Working with Shivam was amazing.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Shivamと一緒に働くのは素晴らしかったです。",
+    name: "マイケル・ジョンソン",
+    title: "アルファストリームテクノロジーズディレクター",
   },
 ];
 
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
+    name: "曇り",
     img: "/cloud.svg",
     nameImg: "/cloudName.svg",
   },
   {
     id: 2,
-    name: "appwrite",
+    name: "アプリ書き込み",
     img: "/app.svg",
     nameImg: "/appName.svg",
   },
   {
     id: 3,
-    name: "HOSTINGER",
+    name: "ホスティング",
     img: "/host.svg",
     nameImg: "/hostName.svg",
   },
   {
     id: 4,
-    name: "stream",
+    name: "ストリーム",
     img: "/s.svg",
     nameImg: "/streamName.svg",
   },
   {
     id: 5,
-    name: "docker.",
+    name: "ドッカー.",
     img: "/dock.svg",
     nameImg: "/dockerName.svg",
   },
@@ -156,29 +156,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Software Engineering Intern - Intel Corporation",
-    desc: "Developed a modern Learning Management System (LMS) with AI curriculum and evaluation capabilities using LLMs. Spearheaded the development of SQL Copilot, a ChatGPT-inspired database tool.",
+    title: "ソフトウェア エンジニアリング インターン - Intel Corporation",
+    desc: "LLM を使用して、AI カリキュラムと評価機能を備えた最新の学習管理システム (LMS) を開発しました。ChatGPT にヒントを得たデータベース ツールである SQL Copilot の開発を主導しました。",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Data Analyst Intern - Jindal Steel and Power",
-    desc: "Implemented descriptive analytics techniques, resulting in a 20% efficiency gain for identifying business patterns. Created Qlik Sense dashboards & visualizations, cutting report and data analysis time by 30%.",
+    title: "データアナリストインターン - Jindal Steel and Power",
+    desc: "記述的分析手法を実装した結果、ビジネス パターンの特定における効率が 20% 向上しました。Qlik Sense ダッシュボードと視覚化を作成し、レポートとデータ分析の時間を 30% 短縮しました。",
     className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Visual Computing Intern - RV College of Engineering",
-    desc: "Applied OpenCV techniques to enhance algorithmic performance across diverse datasets. Optimized processing speed & image recognition algorithms, resulting in a 30% accuracy boost in pattern recognition tasks.",
+    title: "ビジュアルコンピューティングインターン　ー　マラッカ工科大学",
+    desc: "OpenCV 技術を適用して、多様なデータセット全体でアルゴリズムのパフォーマンスを強化しました。処理速度と画像認識アルゴリズムが最適化され、パターン認識タスクの精度が 30% 向上しました。",
     className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Freelance Developer",
-    desc: "Led the development of various projects from initial concept to deployment. Specialized in building dynamic and responsive web applications using modern technologies such as React.js and Next.js.",
+    title: "フリーランス開発者",
+    desc: "初期の構想から展開まで、さまざまなプロジェクトの開発を主導しました。React.js や Next.js などの最新テクノロジーを使用して、動的で応答性の高い Web アプリケーションの構築を専門としています。",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -189,16 +189,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    url: "https://github.com/shivxmr",
+    url: "https://github.com/Suzuki0916",
   },
   {
     id: 2,
     img: "/twit.svg",
-    url: "https://x.com/shivxmr",
+    // url: "https://x.com/shivxmr",
   },
   {
     id: 3,
     img: "/link.svg",
-    url: "https://www.linkedin.com/in/shivxmr/",
+    // url: "https://www.linkedin.com/in/shivxmr/",
   },
 ];

@@ -9,17 +9,15 @@ const Approach = () => {
   return (
     <section className="w-full py-20">
       <h1 className="heading">
-        My <span className="text-purple">approach</span>
+       <span className="text-purple">アプローチ</span>
       </h1>
       {/* remove bg-white dark:bg-black */}
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         {/* add des prop */}
         <Card
-          title="Planning & Strategy"
-          icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          title="計画と戦略"
+          icon={<AceternityIcon order="段階 1" />}
+          des="私たちは協力して、お客様の Web サイトの目標、ターゲット ユーザー、主要な機能を計画します。サイトの構造、ナビゲーション、コンテンツ要件などについて話し合います。"
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -28,11 +26,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Progress Update"
-          icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          title="開発と進捗状況のアップデート"
+          icon={<AceternityIcon order="段階 2" />}
+          des="計画に合意したら、私はローファイ プレイリストを再生してコーディングに取り掛かります。最初のスケッチから洗練されたコードまで、すべてのステップで最新情報をお知らせします。"
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -50,11 +46,9 @@ const Approach = () => {
           {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
         <Card
-          title="Development & Launch"
-          icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          title="開発と発売"
+          icon={<AceternityIcon order="段階 3" />}
+          des="ここで魔法が起こります! 承認されたデザインに基づいて、すべてを機能コードに変換し、Web サイトをゼロから構築します。"
         >
           <CanvasRevealEffect
             animationSpeed={3}

@@ -9,11 +9,11 @@ const RecentProjects = () => {
   return (
     <div className="py-20" id="projects">
       <h1 className="heading">
-        A small selection of{" "}
-        <span className="text-purple">recent projects</span>
+        厳選した{" "}
+        <span className="text-purple">最近のプロジェクト</span>
       </h1>
       <div className="justify-center items-center">
-        Links and more projects yet to be adeed on this page
+        このページにはリンクとプロジェクトがまだ追加されていません。
       </div>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
         {projects.map((item) => (
@@ -70,7 +70,7 @@ const RecentProjects = () => {
 
                 <div className="flex justify-center items-center">
                   <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                    Check Live Site
+                    ライブサイトを確認する
                   </p>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>
